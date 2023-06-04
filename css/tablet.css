@@ -1,0 +1,111 @@
+/* Tablet */
+@media only screen and (min-width:768px) and (max-width: 1024px) {
+* {
+
+}
+
+    /* Navbar tablet */
+#nav-bar {
+    text-align: center;
+    margin-top:-15px;
+    margin-bottom:-30px;
+
+}
+
+#nav-bar a {
+    border: 1px solid #ced4da;
+    padding-right:12px;
+    padding-top:15px;
+    padding-bottom:15px;
+}
+
+#nav-bar a:nth-child(2) {
+    margin-right:30px;
+}
+
+#nav-bar a:nth-child(1) {
+    margin-right:-15px;
+}
+
+#nav-bar a:nth-child(5) {
+    margin-left:-14px;
+}
+
+/* Certificate tablet*/
+
+.cer {
+    max-width: 100%;
+    margin-left:20px;
+    padding-left:40px;
+    border-bottom: 2px solid #d6c08d;
+}
+
+.cer-image {
+    width:300px;
+    height:auto;
+}
+
+.cer-text {
+    padding-right:100px;
+    padding-top:10px;
+}
+
+.cer1 {
+margin-right:0;
+padding-left:20px;
+}
+
+.cer1 .cer-text {
+    padding-left:1px;
+}
+
+.cer2 {
+    margin-left:1px;
+    border-left: 2px solid #d6c08d;
+}
+
+.cer2 .cer-image {
+    border:none;
+}
+
+.cer2 .cer-text {
+    
+    margin-left: 20px;
+    padding-left:10px;
+}
+
+.cer3 {
+    padding-left:0px;
+    margin-left:0px;
+}
+
+.cer3 .cer-text {
+    
+    padding-right:500px;
+}
+
+/* Project tablet */
+.project-list {
+    margin-left:-10px;
+}
+
+.prj-profile p:nth-child(2) {
+    margin-left:-10px;
+}
+
+.prj-profile p:nth-child(3) {
+    margin-left:80px;
+}
+
+.sub {
+    margin-left:100px;
+}
+
+.prj1 .sub-5 {
+   padding-bottom:52px;
+}
+
+.prj3 .sub-5 {
+    padding-bottom:13px;
+ }
+}

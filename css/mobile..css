@@ -1,0 +1,134 @@
+/* Mobile */
+@media only screen and (min-width: 480px) and (max-width:640px) {
+    /* Banner moblie */
+* {
+    max-width:640px;
+}
+
+    #banner {
+      height:100vh;
+    }
+  
+    /* Navbar mobile */
+    .avatar {
+  display:none;
+    }
+  
+  #nav-bar {
+  padding-left: -10px;
+  }
+  
+    #nav-bar a{
+  display: block;
+     line-height: 3;
+  }
+  
+  /* About moblie*/
+  #target {
+    max-width: 100%;
+    padding:0 10px;
+  }
+  
+  #personal-info {
+      max-width: 100%;
+  }
+  
+  #personal-info h1 {
+  margin-left:15px;
+  padding-top:40px;
+  padding-bottom: 40px;
+  }
+  
+  #personal-info ul {
+      margin-left:-30px;
+      line-height: 2;
+      }
+  
+  
+  /* Certificate mobile */
+  .cer-image {
+      width:395px;
+      height:auto;
+  }
+  
+   .certificate div {
+      display:block;
+  }
+
+  .cer {
+border:none;
+margin-left:25px;
+  }
+
+  .cer-text {
+    padding-top:10px;
+}
+
+  .cer1 {
+    border-bottom: 2px solid #d6c08d;
+    padding-bottom:40px;
+    margin-left:-10px;
+  }
+  
+.cer2 {
+    width:400px;
+    margin-left:-30px;
+}
+
+.cer2 .cer-image {
+    width:410px;
+    padding-right:17px;
+}
+
+  .cer1 .cer-text {
+      padding-left: 30px;
+  }
+  
+  .cer2 .cer-text {
+      margin-left:25px;
+      border-bottom:2px solid #d6c08d;
+      margin-right:-10px;
+      padding-right:40px;
+      padding-bottom:50px;
+      padding-left:10px;
+  }
+  
+  .cer3 .cer-text {
+      padding-left:25px;
+  }
+  
+  .cer2 .cer-image {
+      border:none;
+      margin-top:70px;
+  }
+  
+  .cer3 {
+      margin-left:0px;
+      margin-top:20px;
+      padding-right:15px;
+  }
+  
+  
+  
+  /* Project mobile */
+  .prj-profile p {
+      display: block;
+  }
+  
+  .prj1 {
+      margin-top:80px;
+  }
+  
+  .prj2,.prj3 {
+      margin-top:30px;
+  }
+  
+  /* Footer mobile*/
+  #footer {
+      margin-top:60px;
+  }
+  
+  #footer p {
+  display: none;
+  }
+  }

@@ -1,0 +1,257 @@
+* {
+    margin:0 10px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bg-grey {
+    background: #f7f7f7;
+    font-family:Arial, Helvetica, sans-serif;
+    width:100%;
+    margin-top:10px;
+}
+
+section  .container{
+    width: 1170px;
+    margin: auto;
+    display: block;
+    padding: 30px 50px;
+}
+
+.icon {
+    color:#228be6;
+}
+
+/* Banner */
+#banner {
+   text-align: center;
+   width:100%;
+   height:70vh;
+   color:#fff; 
+   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(/images/banner.jpg);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+/* Navbar */
+#nav-bar a {
+    text-decoration: none;
+    color:#333;
+    text-transform: uppercase;
+    
+}
+
+/* Avatar */
+.avatar {
+    position:absolute;
+    height:150px;
+    width:150px;
+    bottom:14%;
+    left:45%;
+    border:10px solid white;
+    border-radius:50%;
+}
+
+/* About */
+#about {
+    justify-content: center;
+    background-color: #fff;
+}
+
+#target {
+  background-color: #dee2e6;
+  width:600px;
+  margin-right:-10px;
+  height: 500px;
+}
+
+#personal-info {
+background-color: #adb5bd;
+width:600px;
+height: 500px;
+
+
+}
+
+.info {
+list-style-type: none;
+}
+
+/* Job-info */
+.col-content {
+    border:1px solid black;
+}
+
+
+
+.jobinfo-icon {
+    padding-right:1px;
+    font-size: 40px;
+}
+
+.jobinfo-text {
+    margin-top:50px;
+    margin-bottom:50px;
+    margin-left:30px;
+}
+
+.title {
+    position: relative;
+}
+
+.title::before {
+    content:"";
+    position: absolute;
+    background-color: #228be6;
+    border:1px solid #228be6;
+    width:10px;
+    height:10px;
+    border-radius: 50%;
+    left:-22px;
+    top:7px;
+}
+
+/* Interest */
+
+.interest-sub {
+font-size:13px;
+}
+
+.interest-icon {
+    border:1px solid #228be6;
+    padding:10px;
+    font-size: 13px;
+    border-radius:50%;
+   
+}
+
+/* Language */
+.score-list {
+    margin-left:2px;
+}
+
+.dark {
+   background-color:grey;
+content:"";
+display: inline-block;
+height: 2px;
+margin-right:1px;
+width: 45px;
+}
+
+.light {
+    background-color: #199cdb;
+    content:"";
+    display: inline-block;
+height: 2px;
+margin-right:1px;
+width: 45px;
+}
+
+
+/* Certificate */
+.cer {
+    border-bottom: 2px solid #d6c08d;
+    margin-left:50px;
+    margin-right:50px;
+    padding-bottom:60px;
+}
+
+.cer-image {
+ height: 150px;
+ width: 260px;
+ }
+
+ .cer2 .cer-image {
+border-left:2px solid #d6c08d;
+ }
+
+ .cer1 {
+    margin-right: -11px;
+    margin-left:-60px;
+ }
+
+ .cer1 .cer-image {
+    margin-left:-10px;
+ }
+
+ .cer1 .cer-text {
+padding-left:20px;
+ }
+
+ .cer3 {
+    
+        margin-left:20px;
+        margin-top:65px;
+        padding-right:15px;
+    
+ }
+
+/* Project */
+#project img {
+height:auto;
+    width:100%;
+}
+
+.prj-profile p {
+    display: inline-block;
+}
+
+.sub {
+    margin-left:150px;
+}
+
+.prj1 div,
+.prj2 div,
+.prj3 div {
+    border: 1px solid rgb(128, 128, 128);
+    padding:10px 5px 5px 5px;
+    width: 100%;
+}
+
+.prj1 .sub-5 {
+    padding-bottom:55px;
+ }
+
+ .prj2 .sub-5{
+    padding-bottom:25px;
+ }
+ 
+ .prj3 .sub-5 {
+     padding-bottom:50px;
+  }
+
+/* Footer */
+#footer {
+    text-align: center;
+    padding-top:25px;
+}
+
+#footer ul li{
+    color:#adb5bd;
+    list-style: none;
+    display: inline-block;
+}
+
+#footer .icon {
+    font-size: 40px;
+    
+}
+
+
+
+
+
+@media only screen and (min-width: 1024px) {
+
+#nav-bar {
+    text-align: center;
+}
+
+#nav-bar a:nth-child(2) {
+    margin-right:300px;
+}
+
+}
+
